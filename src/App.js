@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Login from "./components/Login";
+import Logout from "./components/Logout";
+import Profile from "./components/Profile";
+import Gallery from "./components/Gallery";
+import ImageData from "./ImageData";
+import { isError, isLoading } from "@auth0/auth0-react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        {/* <Login></Login>
+        <Logout></Logout>
+        <Profile></Profile>
+        <ImageData></ImageData> */}
+        <Gallery></Gallery>
+      </main>
     </div>
   );
 }
