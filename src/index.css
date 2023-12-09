@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200;500;700&family=Crimson+Text&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Asap Condensed', sans-serif;
+}
+
 .gallery-header{
   margin-inline: auto;
   width: 50%;
@@ -8,4 +16,33 @@ img{
   width: 300px;
   height: 140px;
   object-fit: cover;
+}
+
+.gallery header{
+  background-image: url('/public/images/hero-blue.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode:soft-light;
+  height: 80vh;
+  color: white;
+}
+
+.gallery header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 15rem;
+  padding-top: 1rem;
+  font-weight: 200;
+}
+
+.hero-content{
+  margin-inline: 20rem;
+}
+
+h1{
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 90px;
+
 }
